@@ -61,9 +61,7 @@ function GitHubAmazonClone(){
     document.location.href="https://github.com/David-rel/amazon-clone";
 }
 
-function GitHubOpenseaClone(){
-    document.location.href="https://github.com/David-rel/Opensea";
-}
+
 
 function GitHubTinderClone(){
     document.location.href="https://github.com/David-rel/Tinder-Clone";
@@ -91,7 +89,7 @@ function GitHubMinecraftMod(){
 }
 
 function GitHubUnityFighter(){
-    document.location.href="https://github.com/David-rel/";
+    document.location.href="https://github.com/David-rel/"; //still need this -----------------------------
 }
 
 function GitHubMyBlog(){
@@ -131,7 +129,7 @@ function GitHubSnake(){
 }
 
 function GitHubElse(){
-    document.location.href="https://github.com/David-rel/";
+    document.location.href="https://github.com/David-rel/Projects-I-Want-to-Do/blob/main/README.md";
 }
 
 
@@ -151,10 +149,6 @@ function Tinder(){
 
 }
 
-function Opensea(){
-    document.location.href="";
-
-}
 
 function Instagram(){
     document.location.href="https://instagram-clone-8c0a6.web.app/";
