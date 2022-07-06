@@ -62,7 +62,7 @@ function GitHubAmazonClone(){
 }
 
 function GitHubOpenseaClone(){
-    document.location.href="https://github.com/David-rel/"; //still need
+    document.location.href="https://github.com/David-rel/Opensea";
 }
 
 function GitHubTinderClone(){
