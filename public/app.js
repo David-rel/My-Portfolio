@@ -65,13 +65,6 @@ function GitHubAmazonClone(){
     document.location.href="https://github.com/David-rel/amazon-clone";
 }
 
-
-
-function GitHubTinderClone(){
-    document.location.href="https://github.com/David-rel/Tinder-Clone";
-}
-
-
 function GitHubRoboticsScouter(){
     document.location.href="https://github.com/David-rel/FIRST-Robotics-Scouter";
 }
@@ -145,11 +138,6 @@ function Amazon(){
 
 function Uniswap(){
     document.location.href="https://uniswap-clone-delta.vercel.app";
-
-}
-
-function Tinder(){
-    document.location.href="https://tinder-clone-4651c.firebaseapp.com/";
 
 }
 
