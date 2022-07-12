@@ -53,6 +53,10 @@ PageTransitions();
 
 
 //github links
+function Github() {
+    document.location.href="https://github.com/David-rel/";
+}
+
 function GitHubUniswapClone(){
     document.location.href="https://github.com/David-rel/uniswap-clone-client";
 }
