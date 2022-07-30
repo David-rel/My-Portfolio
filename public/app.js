@@ -170,9 +170,6 @@ function Battleship(){
 
 
 //blog links
-function BlogWebsiteBuild(){
-    document.location.href="https://davidfales.blogspot.com/2022/06/how-to-create-website.html";
-}
 
 function BlogWebStacks(){
     document.location.href="https://davidfales.blogspot.com/2022/06/web-stacks-I-Like.html";
@@ -186,14 +183,9 @@ function BlogItInternship(){
     document.location.href="https://davidfales.blogspot.com/2022/06/internship-at-IT-Janus.html";
 }
 
-function BlogRoboticsInternship(){
-    document.location.href="https://davidfales.blogspot.com/2022/06/internship-at-tech-firm.html";
-}
-
 function BlogLanguage(){
     document.location.href="https://davidfales.blogspot.com/2022/06/programming-a-language.html";
 }
-
 
 function BlogWebThree(){
     document.location.href="https://davidfales.blogspot.com/2022/06/why-I-love-web3.html";
@@ -203,6 +195,3 @@ function BlogDeFi(){
     document.location.href="https://davidfales.blogspot.com/2022/06/defi-blockchain.html";
 }
 
-function BlogTeam(){
-    document.location.href="https://davidfales.blogspot.com/2022/06/programing-with-team.html";
-}
