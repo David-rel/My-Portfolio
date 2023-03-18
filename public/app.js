@@ -86,7 +86,7 @@ function GitHubMinecraftMod(){
 }
 
 function GitHubUnityFighter(){
-    document.location.href="https://github.com/David-rel/"; //still need this -----------------------------
+    document.location.href="https://github.com/David-rel/";
 }
 
 function GitHubMyBlog(){
@@ -125,12 +125,28 @@ function GitHubSnake(){
     document.location.href="https://github.com/David-rel/Snake";
 }
 
+function GitHubChirp(){
+    document.location.href="https://github.com/David-rel/chirp"
+}
+
+function GitHubRobotics(){
+    document.location.href="https://github.com/RegisJesuitRobotics/robotics-webpage"
+}
+
 function GitHubElse(){
     document.location.href="https://github.com/David-rel/Projects-I-Want-to-Do/blob/main/README.md";
 }
 
 
 //other websites
+function Chirp(){
+    document.location.href="chirp-murex.vercel.app";
+}
+
+function Robotics(){
+    document.location.href="https://rjhs-3729.vercel.app/";
+}
+
 function Amazon(){
     document.location.href="https://merry-scone-f8498d.netlify.app/";
 
@@ -172,11 +188,11 @@ function Battleship(){
 //blog links
 
 function BlogWebStacks(){
-    document.location.href="https://davidfales.blogspot.com/2022/06/web-stacks-I-Like.html";
+    document.location.href="https://davidfales.blogspot.com/2022/06/blog-post_802.html";
 }
 
 function BlogRoboticsClub(){
-    document.location.href="https://davidfales.blogspot.com/2022/06/robotics-club.html";
+    document.location.href="https://davidfales.blogspot.com/2022/06/blog-post_39.html";
 }
 
 function BlogItInternship(){
@@ -192,6 +208,42 @@ function BlogWebThree(){
 }
 
 function BlogDeFi(){
-    document.location.href="https://davidfales.blogspot.com/2022/06/defi-blockchain.html";
+    document.location.href="https://davidfales.blogspot.com/2022/06/blog-post.html";
 }
 
+function ChatGPT4(){
+    document.location.href="https://davidfales.blogspot.com/2023/03/my-experience-using-chat-gpt-4.html";
+}
+
+
+
+
+
+
+
+function SubmitForm(){
+    const name = document.getElementById('name')
+    const email = document.getElementById('email')
+    const subject = document.getElementById('subject')    
+    const message = document.getElementById('message')
+
+    console.log(name.value)
+    console.log(email.value)
+    console.log(message.value)
+    console.log(subject.value)
+
+
+    fetch('https://formspree.io/f/xbjeknpj', {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/json, text/plain, */*',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ name: name.value, email: email.value, subject: subject.value, message: message.value })
+    })
+
+    alert('sent message')
+
+
+
+}
