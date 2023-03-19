@@ -215,6 +215,12 @@ function ChatGPT4(){
     document.location.href="https://davidfales.blogspot.com/2023/03/my-experience-using-chat-gpt-4.html";
 }
 
+function Zoom(){
+    document.location.href="https://davidfales.blogspot.com/2023/03/my-1-day-mini-mentorship-with-zoom.html";
+}
+
+
+
 
 
 
