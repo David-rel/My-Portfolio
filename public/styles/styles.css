@@ -461,27 +461,31 @@ section {
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .html {
-  width: 50%;
+  width: 90%;
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .css {
-  width: 45%;
-}
-
-.about-stats .progress-bars .progress-bar .progress-con .progress .js {
   width: 75%;
 }
 
+.about-stats .progress-bars .progress-bar .progress-con .progress .js {
+  width: 90%;
+}
+
 .about-stats .progress-bars .progress-bar .progress-con .progress .react {
-  width: 60%;
+  width: 90%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .next {
+  width: 95%;
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .node {
-  width: 35%;
+  width: 75%;
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .python {
-  width: 40%;
+  width: 70%;
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .java {
@@ -489,24 +493,37 @@ section {
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .csharp {
-  width: 20%;
+  width: 50%;
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .unity {
   width: 30%;
 }
 
-.about-stats .progress-bars .progress-bar .progress-con .progress .data {
-  width: 50%;
+.about-stats .progress-bars .progress-bar .progress-con .progress .sql {
+  width: 60%;
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .solidity {
-  width: 10%;
+  width: 40%;
 }
 
-.about-stats .progress-bars .progress-bar .progress-con .progress .hardHat {
+.about-stats .progress-bars .progress-bar .progress-con .progress .tailwind {
   width: 80%;
 }
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .azure {
+  width: 40%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .supa {
+  width: 90%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .gpt {
+  width: 95%;
+}
+
 
 .stat-title {
   text-transform: uppercase;
