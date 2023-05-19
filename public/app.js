@@ -102,7 +102,7 @@ function GitHubWordle(){
 }
 
 function GitHubPortfolio(){
-    document.location.href="https://github.com/David-rel/Portfolio-David";
+    document.location.href = "https://github.com/David-rel/My-Portfolio";
 }
 
 function GitHubMybrary(){
@@ -135,6 +135,10 @@ function GitHubRobotics(){
 
 function GitHubElse(){
     document.location.href="https://github.com/David-rel/Projects-I-Want-to-Do/blob/main/README.md";
+}
+
+function GitHubLitLine() {
+  document.location.href = "https://github.com/David-rel/LitLine";
 }
 
 
@@ -181,6 +185,10 @@ function Mybrary(){
 function Battleship(){
     document.location.href="https://battleship-david.herokuapp.com/";
 
+}
+
+function LitLine() {
+    document.location.href = "https://lit-line.vercel.app/";
 }
 
 
