@@ -141,6 +141,10 @@ function GitHubLitLine() {
   document.location.href = "https://github.com/David-rel/LitLine";
 }
 
+function GitHubPairmony() {
+  document.location.href = "https://github.com/David-rel/Pairmony";
+}
+
 
 //other websites
 function Chirp(){
@@ -189,6 +193,10 @@ function Battleship(){
 
 function LitLine() {
     document.location.href = "https://lit-line.vercel.app/";
+}
+
+function Pairmony() {
+  document.location.href = "https://pairmony.vercel.app";
 }
 
 
