@@ -145,6 +145,10 @@ function GitHubPairmony() {
   document.location.href = "https://github.com/David-rel/Pairmony";
 }
 
+function GitHubRJAIClub() {
+  document.location.href = "https://github.com/David-rel/rj-ai-club";
+}
+
 
 //other websites
 function Chirp(){
@@ -197,6 +201,10 @@ function LitLine() {
 
 function Pairmony() {
   document.location.href = "https://pairmony.vercel.app";
+}
+
+function RJAIClub() {
+  document.location.href = "https://rj-ai-club.vercel.app/";
 }
 
 
